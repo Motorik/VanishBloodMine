@@ -1,0 +1,15 @@
+author: salev
+website: https://vk.com/salevpro
+
+name: Vanish
+main: Salev\Player\Vanish
+api: [3.0.0, 1.12.3, 3.0.1, 3.0.0-ALPHA-12]
+load: POSTWORLDversion: 1.1 
+
+commands 
+  v: 
+   description: §6Невидемость
+   permission: v.all
+permission: 
+    v.all: 
+    default: op
