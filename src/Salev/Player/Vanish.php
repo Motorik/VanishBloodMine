@@ -4,7 +4,7 @@ namespace Salev\Player;
 
 use pocketmine\plugin\PluginBase;
 
-use pocketmine\command\CommandSender
+use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\command\CommandExecutor;
 
