@@ -1,0 +1,11 @@
+name: Vanish
+api: 3.0.1, 3.0.0
+load: STARTUP
+main: Salev\Inovate
+commands:
+ v:
+  description: §6Ваниш!
+  permission: vanish.user
+permission:
+    vanish.user:
+     default: op
