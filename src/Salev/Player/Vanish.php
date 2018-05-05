@@ -25,7 +25,7 @@ use pocketmine\entity\Effect;
  
  class Vanish extends PluginBase implements CommandExecutor {
  
-       publuc function onEnable() {
+       public function onEnable() {
           $this->getLogger()->info("=================================");
           $this->getLogger()->info(" Author: Salev");
           $this->getLogger()->info(" Web: https://vk.com/salevpro");
