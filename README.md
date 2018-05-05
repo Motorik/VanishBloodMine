@@ -1,6 +1,6 @@
 # VanishBloodMine
 # Default: op
-# Permission: use.v
+# Permission: vanish.user
 # Плагин был создан для серверов MCPE для рабочей версии плагина на невидемость!
 # Автор плагина: Salev
 # Ссылка на автора: https://vk.com/salevpro
