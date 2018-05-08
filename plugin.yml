@@ -1,7 +1,7 @@
 name: Vanish
 api: 3.0.1, 3.0.0
 load: STARTUP
-main: Salev\Inovate
+main: Salev\Inovation\vh
 commands:
  v:
   description: §6Ваниш!
