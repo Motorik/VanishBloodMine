@@ -7,6 +7,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\command\CommandExecutor;
 use pocketmine\event\Listener;
+use pocketmine\entity\Effect;
 
 class vh extends PluginBase implements CommandExecutor, Listener {
 
@@ -20,7 +21,7 @@ public function onCommand(CommandSender $sender, Command $command, $label, array
               case "on":
                   $sender->sendMessage("§a》 §fТы §aвключил(а) §fневидимость.");
                   $sender->sendTitle("§7§l(§3Невидимость§7)","§a》 §fТы §aвключил(а) §fневидимость.");
-                  $sender->addEffect(Effect::getEffect(INVISIBILITY)->setAmplifier(10)->setDuration(999999));
+                  $sender->addEffect(Effect::getEffect(14)->setAmplifier(10)->setDuration(999999));
                   break;
               case "off":
                    $sender->sendMessage("§a》 §fТы §cвключил(а) §fневидимость.");
@@ -31,5 +32,6 @@ public function onCommand(CommandSender $sender, Command $command, $label, array
                    $sender->sendMessage("§a》 §fИспользуй /v §aon §fили §coff");
                    break;
               }
-      }
+     }
+}
 }
